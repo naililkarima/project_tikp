@@ -1,10 +1,10 @@
 body {
-  background-color: #1a1aff; /*warna kuning cerah */
-  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+  background-color: #1a1aff; 
+  font-family: Arial, sans-serif; 
   color: #191970; 
 }
 
-.Kartu-profil {
+.Kartu-profil{
   width: 300px;
   margin: 50px auto; 
   padding: 20px;
