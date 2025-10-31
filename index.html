@@ -1,17 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Profil Saya - Karim</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="Kartu-profil">
-  <img src="download (1).jpg" alt="Foto profil saya">
-  <h1>Wahyu Nailil Karima</h1>
-  <p>Siswa SMA yang tertarik dengan teknologi dan desain. Selamat datang di website pertama saya!</p>
+<!DOCTYPE html> <!--Deklarasi Tipe Dokumen: Wajib ada. Memberitahu browser kalau dokumen ini ditulis menggunakan standar HTML5-->
+<html> <!--Elemen Root (Akar): Tag pembuka dan penutup (</html> di baris 17) yang membungkus semua konten dan struktur halaman (<head> & <body>).berisi judul tab & link ke CSS-->
+<head> <!--Kepala (Otak): Bagian yang berisi informasi untuk browser dan mesin pencari. Isinya tidak muncul di halaman utama-->
+  <title>Profil Saya - Karim</title> <!--Judul Tab Browser: Teks ini yang akan muncul sebagai nama tab ketika halaman dibuka-->
+  <link rel="stylesheet" href="style.css"> <!--Penghubung CSS: Menghubungkan dokumen HTML ini ke file style.css untuk mengatur tampilan dan gaya (style)-->
+</head> <!--Penutup Kepala.-->
+<body> <!--Badan (Isi): Bagian yang berisi semua konten yang akan dilihat dan diinteraksi oleh pengguna (gambar, teks, tombol, dll.)-->
+  <div class="Kartu-profil"> <!--Kotak Pembungkus(div): Membuat satu kotak besar untuk mengelompokkan elemen kartu profil. (class) digunakan agar mudah diatur style-nya di CSS-->
+  <img src="download (1).jpg" alt="Foto profil saya"> <!--Menampilkan Gambar: Digunakan untuk menampilkan foto profil. src adalah alamat file gambar yang berada dalam folder 
+    yang sama dengan HTML, dan alt adalah teks jika gambar gagal dimuat /loading-->
+  <h1>Wahyu Nailil Karima</h1> <!--Judul Utama (Heading 1): Digunakan untuk informasi paling penting (nama lengkap), muncul dengan ukuran font terbesar-->
+  <p>Siswa SMA yang tertarik dengan teknologi dan desain. Selamat datang di website pertama saya!</p> <!--Paragraf: Digunakan untuk teks deskripsi atau pengantar biasa-->
   <a href="https://www.instagram.com/karimwehehehe">Kunjungi instagram saya</a>
-  <button id="SapaButton">Sapa Saya!</button>
-  </div>
-<script src="script.js"></script>
-</body>
-</html>
+    <!--Anchor(<a>): Teks "Kunjungi instagram saya" adalah area yang bisa diklik
+    Hyperhtext Reference (href="..."): Saat diklik, browser harus berlayar ke alamat https://www.instagram.com/karimwehehehe.-->
+  <button id="SapaButton">Sapa Saya!</button> 
+    <!--button: Membuat tombol interaktif/ Elemen yang bisa diklik. 
+    id : atribut yang fungsinya memberi pengenal unik pada suatu elemen HTML, karena Nilai dari id nggak boleh sama dengan id elemen lain di seluruh halaman web Hanya satu elemen yang boleh punya id yang sama
+    untuk Dipakai JavaScript buat "menargetkan" si tombol agar bisa diberi perintah.-->
+  </div> <!--Penutup Kotak Pembungkus.-->
+<script src="script.js"></script> <!--Penghubung JavaScript: Menghubungkan ke file script.js. Ditempatkan di akhir <body> agar semua elemen (seperti tombol) sudah termuat sebelum script dijalankan-->
+</body> <!--Penutup Badan.-->
+</html> <!--Penutup Dokumen.-->
